@@ -24,7 +24,7 @@ import re
 from ansible_collections.extreme.slxos.tests.unit.compat.mock import patch
 from ansible_collections.extreme.slxos.tests.unit.modules.utils import set_module_args
 from ansible_collections.extreme.slxos.plugins.modules import slxos_l3_interface
-from ..slxos_module import TestSlxosModule, load_fixture
+from .slxos_module import TestSlxosModule, load_fixture
 
 
 class TestSlxosL3InterfaceModule(TestSlxosModule):
