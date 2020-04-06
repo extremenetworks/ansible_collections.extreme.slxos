@@ -122,8 +122,8 @@ import time
 
 from ansible_collections.extreme.slxos.plugins.module_utils.network.slxos.slxos import run_commands
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.common.utils import ComplexList
-from ansible.module_utils.network.common.parsing import Conditional
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import ComplexList
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.parsing import Conditional
 from ansible.module_utils.six import string_types
 
 

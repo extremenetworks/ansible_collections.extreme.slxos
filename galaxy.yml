@@ -2,13 +2,21 @@ namespace: extreme
 name: slxos
 version: 0.1.0
 readme: README.md
-authors: null
-description: null
+authors:
+    - Ujwal Komarla
+description: An Ansible collection for managing Extreme Networks devices running SLXOS.
 license: GPL-3.0-or-later
 license_file: COPYING
-tags: null
-dependencies: {}
-repository: git@github.com:ansible-collection-migration/extreme.slxos.git
-documentation: https://github.com/ansible-collection-migration/extreme.slxos/tree/master/docs
-homepage: https://github.com/ansible-collection-migration/extreme.slxos
-issues: https://github.com/ansible-collection-migration/extreme.slxos/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+dependencies:
+  "ansible.netcommon": "*"
+repository: git@github.com:extremenetworks/ansible_collections.extreme.slxos.git
+documentation: https://github.com/extremenetworks/ansible_collections.extreme.slxos/tree/master/docs
+homepage: https://github.com/extremenetworks/ansible_collections.extreme.slxos
+issues: https://github.com/extremenetworks/ansible_collections.extreme.slxos/issues
+tags:
+    - networking
+    - slxos
+    - extreme
+    - switching
+    - collection
+    - datacenter

@@ -65,7 +65,7 @@ commands:
 """
 import re
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.common.config import CustomNetworkConfig
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.config import CustomNetworkConfig
 from ansible_collections.extreme.slxos.plugins.module_utils.network.slxos.slxos import (
     load_config,
     get_config

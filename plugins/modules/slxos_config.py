@@ -255,7 +255,7 @@ backup_path:
 
 from ansible_collections.extreme.slxos.plugins.module_utils.network.slxos.slxos import run_commands, get_config, load_config
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.common.config import NetworkConfig, dumps
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.config import NetworkConfig, dumps
 
 __metaclass__ = type
 

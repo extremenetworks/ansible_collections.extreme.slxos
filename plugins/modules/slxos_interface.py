@@ -166,8 +166,8 @@ from ansible.module_utils._text import to_text
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils.connection import exec_command
 from ansible_collections.extreme.slxos.plugins.module_utils.network.slxos.slxos import get_config, load_config
-from ansible.module_utils.network.common.config import NetworkConfig
-from ansible.module_utils.network.common.utils import conditional, remove_default_spec
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.config import NetworkConfig
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import conditional, remove_default_spec
 
 
 def validate_mtu(value, module):
